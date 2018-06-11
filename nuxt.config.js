@@ -26,7 +26,7 @@ module.exports = {
 
 
 
-  // mode: 'spa',
+  mode: 'spa',
 
   css: [
     '~assets/css/marginpaddinghelpers.css',
