@@ -1,0 +1,30 @@
+[
+{
+  "name": "top",
+  "material": [{
+    "type": "wood",
+    "typefill":"#dfbe5d",
+    "price": 40
+  }, {
+    "type": "glass",
+    "typefill":"lightblue",
+    "price": 60
+  }],
+  "img":"model_top.svg",
+  "selected":""
+},
+{
+  "name": "bottom",
+  "material": [{
+    "type": "wood",
+    "typefill":"#dfbe5d",
+    "price": 40
+  }, {
+    "type": "glass",
+    "typefill":"lightblue",
+    "price": 60
+  }],
+  "img":"model_bottom.svg",
+  "selected":""
+}
+]
