@@ -3,7 +3,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'Remko Calc',
+    title: 'RemkoCalc',
     meta: [{
         charset: 'utf-8'
       },

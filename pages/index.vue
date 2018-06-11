@@ -15,7 +15,6 @@
 import genericcomp from '~/components/_genericComp.vue'
 import productpart from '~/components/productPart.vue'
 import productpartfull from '~/components/productPartFull.vue'
-import postlistcomp from '~/components/postListComp.vue'
 
 import axios from 'axios'
 import {
@@ -28,7 +27,6 @@ export default {
     genericcomp,
     productpart,
     productpartfull,
-    postlistcomp
   },
   computed: {
     ...mapGetters({

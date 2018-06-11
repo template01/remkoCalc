@@ -69,16 +69,16 @@ export const mutations = {
 
 export const actions = {
   // LOAD INITIAL DATA (SSR)
-  async nuxtServerInit({
-    commit,
-    state
-  }, {
-    req
-  }) {
-
-    const postsRes = await axios.get(state.apiRoot + '/posts')
-    state.posts = postsRes.data
-  },
+  // async nuxtServerInit({
+  //   commit,
+  //   state
+  // }, {
+  //   req
+  // }) {
+  //
+  //   const postsRes = await axios.get(state.apiRoot + '/posts')
+  //   state.posts = postsRes.data
+  // },
 
   // LOAD INITIAL DATA (SPA)
   // async nuxtClientInit({
